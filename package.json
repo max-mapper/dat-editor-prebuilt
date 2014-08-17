@@ -1,0 +1,27 @@
+{
+  "name": "dat-editor-prebuilt",
+  "version": "1.0.19",
+  "description": "prebuilt copy of the dat-editor module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd node_modules/dat-editor && packify index.html > ../../prebuilt.html"
+  },
+  "author": "max ogden",
+  "license": "BSD",
+  "devDependencies": {
+    "dat-editor": "1.0.19",
+    "packify": "^1.1.1"
+  },
+  "dependencies": {
+    "dat-editor": "^1.0.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxogden/dat-editor-prebuilt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxogden/dat-editor-prebuilt/issues"
+  },
+  "homepage": "https://github.com/maxogden/dat-editor-prebuilt"
+}
