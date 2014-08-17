@@ -1,6 +1,6 @@
 {
   "name": "dat-editor-prebuilt",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "prebuilt copy of the dat-editor module",
   "main": "index.js",
   "scripts": {
@@ -10,11 +10,8 @@
   "author": "max ogden",
   "license": "BSD",
   "devDependencies": {
-    "dat-editor": "1.0.19",
+    "dat-editor": "1.0.20",
     "packify": "^1.1.1"
-  },
-  "dependencies": {
-    "dat-editor": "^1.0.19"
   },
   "repository": {
     "type": "git",
